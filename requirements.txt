@@ -1,0 +1,7 @@
+streamlit
+opencv-python
+pytesseract
+pandas
+numpy
+openai>=1.0.0
+Pillow
