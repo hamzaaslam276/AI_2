@@ -1,6 +1,0 @@
-streamlit
-openai>=1.0.0
-easyocr
-Pillow
-numpy
-opencv-python-headless
