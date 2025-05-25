@@ -5,6 +5,9 @@ import re
 import pandas as pd
 from openai import OpenAI
 import streamlit as st
+import pytesseract
+
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
